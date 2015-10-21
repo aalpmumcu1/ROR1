@@ -7,5 +7,7 @@ class PagesController < ApplicationController
   end
   def Learn
   end
+  def Math
+  end
   
 end

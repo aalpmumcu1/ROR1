@@ -3,7 +3,7 @@ ROR1::Application.routes.draw do
   get "about" => "pages#about"
   get "history" => "pages#history"
   get "learn" => "pages#learn"
-
+  get "math" => "pages#math"
 
 
     # The priority is based upon order of creation:
