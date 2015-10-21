@@ -3,5 +3,9 @@ class PagesController < ApplicationController
   end
   def about
   end
+  def History
+  end
+  def Learn
+  end
   
 end
