@@ -1,9 +1,12 @@
 ROR1::Application.routes.draw do
+  devise_for :users
+
   root :to => 'pages#home'
   get "about" => "pages#about"
   get "history" => "pages#history"
   get "learn" => "pages#learn"
   get "math" => "pages#math"
+
 
 
     # The priority is based upon order of creation:
